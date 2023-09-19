@@ -1,0 +1,33 @@
+/* Custom styles for the button */
+.btn-fancy {
+    background-color: #0e0d57; /* Custom background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Adjust padding for the button */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    text-decoration: none; /* Remove underlines for anchor tags */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Custom styles for the button hover effect */
+.btn-fancy:hover {
+    background-color: #E44A19; /* Change background color on hover */
+}
+
+/* Custom styles for the header */
+
+p {
+    font-size: 18px; /* Font size for paragraphs */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Set the font for the header */
+h1 {
+    color: #ff6f00; /* Header text color */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; /* You can adjust the font weight as needed */
+}
+
