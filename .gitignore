@@ -115,7 +115,8 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
+# uncommented perchè si
+# dist
 
 # Gatsby files
 
