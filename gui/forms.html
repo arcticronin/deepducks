@@ -30,9 +30,10 @@
     <header>
         <p>Questo è quello che c'è dentro header</p>
     </header>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">My Website</a>
+        <a class="navbar-brand" href="index.html">My Website</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,30 +55,66 @@
         </div>
     </nav>
 
-    <!-- Page content -->
     <div class="container mt-5">
-        <h1>Welcome to DeepDucks eheh</h1>
-        <p>This is a basic structure for a website using HTML, CSS, and Bootstrap.</p>
-        <p>Questo è il nostro sito carino carino come te</p>
-        <!-- Fancy Button -->
-        <a href="#" class="btn btn-primary btn-fancy btn-lg">Tocca le chiappe a Luca</a>
-    </div>
+        <form>
+          <div>
+            <label for=”username”>Username<label>
+            <input type=”text” id=”username” name=”username” required minlegth="2">
+          </div>
+          <div>
+            <label for=”password”>Insert password<label>
+            <input type=”password” id=”password” name="password" required minlegth="2">
+            <button type=”submit”>Log in</button>
+          </div>
+        </form>
+      </div>
 
-    <div class="container mt-5">
-        <h2>Sezione 1</h2>
-        <ul>
-            <li>Nome dell'istituto - Laurea in Informatica (Anno)</li>
-            <li>Altro istituto - Corso di Web Development (Anno)</li>
-        </ul>
-    </div>
+      <br>
+      
+      <div class="container mt-5">
+        <form>
+          <div>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="date_booking">Date of booking</label>
+            <input type="date" id="date_booking" name="date_booking">
+          </div>
+          <div>
+            <label for="number_people">Number of people</label>
+            <input type="number" id="number_people" name="number_people" min="1" max="8">
+          </div>
+          <div>
+            <label for="agree">I agree to the cancellation policy.</label>
+            <input type="checkbox" id="agree" name="agree" required>
+          </div>
+          <button type="submit">Book now!</button>
+        </form>
+      </div>
+      
+      <br>
 
-    <div class="container mt-5">
-        <h2>Sezione 2</h2>
-        <ul>
-            <li>Nome dell'azienda - Posizione (Anno-Inizio - Anno-Fine)</li>
-            <li>Altro luogo di lavoro - Altra posizione (Anno-Inizio - Anno-Fine)</li>
-        </ul>
-    </div>
+      <div class="container mt-5">
+        <video width="320" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+        <form>
+          <div>
+            <label for="rating">Rate the video</label>
+            <input type="range" id="rating" name="rating" min="1" max="5" list="ratings">
+            <datalist>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </datalist>
+          </div>
+          <button type="submit">Submit rating</button>
+        </form>
+      </div>
+      <br>
 
     <!-- Bootstrap JavaScript and jQuery (required for some Bootstrap features) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
