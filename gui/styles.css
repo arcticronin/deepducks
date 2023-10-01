@@ -38,11 +38,12 @@ h1 {
     border: 1px solid #ccc;
     overflow: hidden;
     /*max-height: 300px;*/
+    padding: 10px 20px
 }
 
 .icon{
     padding: 0.8rem;
-    transform: scale(0.3);
+    /*transform: scale(0.3);*/
 }
 
 .searchBox{
